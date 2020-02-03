@@ -44,29 +44,15 @@
           
         </div>
       </div>
-   
+    <!-- Search form -->
+<div class="md-form active-pink active-pink-2 mb-3 mt-0">
+  <input class="form-control" type="text" placeholder="Search" aria-label="Search" style="border-bottom: 1px solid #f48fb1;box-shadow: 0 1px 0 0 #f48fb1;">
+</div>
+
      
       </div>
     </main>
   </div>
 </div>
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-            
-            
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
 
-                    You are logged in!
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 @endsection

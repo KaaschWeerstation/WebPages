@@ -15,10 +15,20 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/home', function () {
+    return view('home');
+});
+
 Route::get('/map', function () {
     return view('map');
+});
+
+Route::get('/search', function () {
+    return view('search');
 });
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
